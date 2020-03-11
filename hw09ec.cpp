@@ -8,7 +8,9 @@
 
 #include "hw09ec.h"
 
+/*
 int main() {
 
 	return 0;
 }
+*/

@@ -18,9 +18,16 @@ void Shape::print(){
 	cout << "x: " << x << "\ny: " << y << endl;
 }
 
-void Shape::updateDimensions(){
+void Shape::updateDimensions(){}
 
+double Shape::calcPerimeter(){
+	return 0.0;
 }
-void Shape::move(int x, int y){
+double Shape::calcArea(){
+	return 0.0;
+}
 
+void Shape::move(int x, int y){
+	this->x = x;
+	this->y = y;
 }

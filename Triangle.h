@@ -13,6 +13,12 @@
 class Triangle : public Shape{
 public:
 	Triangle(int s1, int s2, int s3);
+	Triangle();
+
+	double calcPerimeter();
+	double calcArea();
+	void printPerimeter();
+	void printArea();
 private:
 	int s1; // side one
 	int s2; // side two

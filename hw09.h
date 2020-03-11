@@ -10,8 +10,10 @@
 
 #include <iostream>
 using namespace std;
-#include "Shape.h"
+#include "Triangle.h"
+#include "Rectangle.h"
 
-
+void printPerimeter(Shape s);
+void printArea(Shape s);
 
 #endif /* HW09_H_ */

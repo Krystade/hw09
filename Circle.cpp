@@ -12,6 +12,6 @@ void Circle::print(){
 }
 
 
-void updateDimensions(int r){
-
+void Circle::updateDimensions(int r){
+	this->r = r;
 }

@@ -13,6 +13,12 @@
 class Rectangle : public Shape{
 public:
 	Rectangle (int l, int w);
+	Rectangle ();
+
+	double calcPerimeter();
+	double calcArea();
+	void printPerimeter();
+	void printArea();
 	void print();
 	void updateDimensions(int l, int w);
 	//… override Print // static polymorphism
