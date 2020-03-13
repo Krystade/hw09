@@ -8,7 +8,6 @@
 
 #include "hw09.h"
 
-/*
 int main() {
 	Rectangle * prect = new Rectangle(10, 15);
 	cout << "Rectangle\nPerimeter\n";
@@ -38,4 +37,3 @@ void printPerimeter(Triangle s){
 void printArea(Triangle s){
 	cout << s.calcArea();
 }
-*/
