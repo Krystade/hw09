@@ -17,16 +17,20 @@ Triangle::Triangle() : Shape(0, 0){
 	this->s2 = 0;
 	this->s3 = 0;
 }
+void Triangle::print(){
+	cout << "s1: " << s1 << "\ns2: " << s2 << "\ns3: " << s3 << endl;
+}
 
 double Triangle::calcPerimeter(){
 	return s1 + s2 + s3;
 }
 double Triangle::calcArea(){
-	return sqrt(calcPerimeter() * s1 * s2 * s3);
+	double s = (s1 + s2 + s3)/2;
+	return sqrt(s*(s - s1)*(s - s2)*(s - s3));
 }
 void Triangle::printPerimeter(){
-	cout << Triangle::calcPerimeter();
+	cout << calcPerimeter();
 }
 void Triangle::printArea(){
-	cout << Triangle::calcArea();
+	cout << calcArea();
 }

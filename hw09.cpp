@@ -3,12 +3,12 @@
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Practicing Abstract Classes & Virtual Functions, Ansi-style
 //============================================================================
 
 #include "hw09.h"
 
-
+/*
 int main() {
 	Rectangle * prect = new Rectangle(10, 15);
 	cout << "Rectangle\nPerimeter\n";
@@ -21,16 +21,21 @@ int main() {
 	cout << "\nArea\n";
 	printArea(*ptri);
 	cout << endl;
-	prect->print();
-	ptri->print();
 
 	return 0;
 }
 
 
-void printPerimeter(Shape s){
+void printPerimeter(Rectangle s){
 	cout << s.calcPerimeter();
 }
-void printArea(Shape s){
+void printArea(Rectangle s){
 	cout << s.calcArea();
 }
+void printPerimeter(Triangle s){
+	cout << s.calcPerimeter();
+}
+void printArea(Triangle s){
+	cout << s.calcArea();
+}
+*/

@@ -14,18 +14,8 @@ Shape::Shape(int x, int y){
 Shape::~Shape(){
 
 }
-void Shape::print(){
-	cout << "x: " << x << "\ny: " << y << endl;
-}
 
 void Shape::updateDimensions(){}
-
-double Shape::calcPerimeter(){
-	return 0.0;
-}
-double Shape::calcArea(){
-	return 0.0;
-}
 
 void Shape::move(int x, int y){
 	this->x = x;

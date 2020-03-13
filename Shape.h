@@ -17,10 +17,14 @@ public:
 	Shape();
 	Shape(int x, int y);
 	virtual ~Shape();
-	void print();
 
-	virtual double calcPerimeter();
-	virtual double calcArea();
+	virtual double calcPerimeter() = 0;
+	virtual double calcArea() = 0;
+
+	virtual void print() = 0;
+	virtual void printPerimeter() = 0;
+	virtual void printArea() = 0;
+
 	virtual void move(int x, int y);
 	virtual void updateDimensions();
 private:

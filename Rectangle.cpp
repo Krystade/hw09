@@ -20,17 +20,17 @@ Rectangle::Rectangle() : Shape(0, 0){
 }
 
 double Rectangle::calcPerimeter(){
-	return 2*this->l + 2*this->w;
+	return 2*l + 2*w;
 }
 double Rectangle::calcArea(){
-	return this->l*this->w;
+	return l*w;
 }
 
 void Rectangle::printPerimeter(){
-	cout << Rectangle::calcPerimeter();
+	cout << calcPerimeter();
 }
 void Rectangle::printArea(){
-	cout << Rectangle::calcArea();
+	cout << calcArea();
 }
 void Rectangle::print(){
 	cout << "l: " << l << "\nw: " << w << endl;

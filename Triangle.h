@@ -15,6 +15,7 @@ public:
 	Triangle(int s1, int s2, int s3);
 	Triangle();
 
+	void print();
 	double calcPerimeter();
 	double calcArea();
 	void printPerimeter();

@@ -13,7 +13,9 @@ using namespace std;
 #include "Triangle.h"
 #include "Rectangle.h"
 
-void printPerimeter(Shape s);
-void printArea(Shape s);
+void printPerimeter(Rectangle s);
+void printArea(Rectangle s);
+void printPerimeter(Triangle s);
+void printArea(Triangle s);
 
 #endif /* HW09_H_ */
